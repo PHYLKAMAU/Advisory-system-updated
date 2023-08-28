@@ -1,0 +1,19 @@
+{
+    "require": {
+        "opis/orm": "^1.0",
+        "rakit/validation": "^1.4",
+        "nesbot/carbon": "^2.69"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+            "lib/helper.php",
+            "lib/db.php"
+        ]
+    }
+}
